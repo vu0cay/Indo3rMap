@@ -1,0 +1,57 @@
+* {
+font-weight: bold;
+font-family: sans-serif;
+}
+
+h1 {
+text-align:center;
+margin: 20px;
+}
+
+h2 {
+font-weight: normal;
+color: gray;
+font-size: 10px;
+text-align:center;
+margin: 20px;
+}
+
+.input {
+border-style: groove;
+border-color: LightGray;
+border-width: 2px;
+border-radius: 5px;
+margin: 20px;
+color: red;
+height: 33px;
+width: 100%;
+margin: auto;
+}
+
+.priButton {
+border-style: none;
+border-radius: 5px;
+color: white;
+background-color: DodgerBlue;
+height: 33px;
+width: 100%;
+margin: auto;
+}
+
+.secButton {
+border-style: none;
+border-radius: 5px;
+background-color: LightGray;
+color: gray;
+height: 33px;
+width: 100%;
+margin: auto;
+}
+
+div {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
