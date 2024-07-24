@@ -1,3 +1,4 @@
+<!-- File nay phuc vu cho viec huy session va chuyen huong nguoi dung ve trang login -->
 <?php
 session_start();
 unset($_SESSION);

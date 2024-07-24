@@ -1,6 +1,7 @@
 * {
 font-weight: bold;
 font-family: sans-serif;
+/* background-image: "./image4.png"; */
 }
 
 h1 {
@@ -54,4 +55,5 @@ div {
     margin: 0 auto;
     padding: 10px;
     position: relative;
+    
 }

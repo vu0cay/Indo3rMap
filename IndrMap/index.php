@@ -1,5 +1,12 @@
+
 <?php
+// Dung Session kiem tra neu session da duoc gan gia tri => dang nhap hop le => su dung app
+// Neu session chua co gia tri=> quay lai login.php
 session_start();
+if(!isset($_SESSION['uname'])){
+  // header de chuyen huong trang php
+  header('Location: ../Login.php');
+};
 ?>
 <!DOCTYPE html>
 <html lang="en">
